@@ -4,42 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Radiants Recruitment Form</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <div class="left-column">
-      <img src="../Assets/WarriorImage.jpg" alt="Image did not load." />
-    </div>
+    <div class="left-column"></div>
     <div class="right-column">
       <div class="top-hero">
-        <h2>Hero Text!</h2>
+        <h2>Join the Knights Radiant—unleash your inner power, protect the world, and rise with honor. Your journey begins here.</h2>
       </div>
-      <div class="signup-container">
-        <h2 class="sign-up-title">Title Text!</h2>
+      <div class="signup-card-container">
+        <h2 class="sign-up-title">Life Before Death, Journey Before Destination</h2>
         <form action="" method="post">
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" />
-          
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" />
-          
-          <label for="email">Email</label>
-          <input type="email" id="email" />
-          
-          <label for="phone-number">Phone Number</label>
-          <input type="number" id="phone-number" />
+          <div class="form-column">
+            <div class="form-input-container">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" tabindex="1"/>
+            </div>
 
-          <label for="password">Password</label>
-          <input type="password" id="password" />
+            <div class="form-input-container">
+              <label for="email">Email</label>
+              <input type="email" id="email" tabindex="3"/>
+            </div>
 
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" id="confirm-password" />
+            <div class="form-input-container">
+              <label for="password">Password</label>
+              <input type="password" id="password" tabindex="5"/>
+            </div>
+          </div>
 
-          <button type="submit">Submit</button>
+          <div class="form-column">
+            <div class="form-input-container">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" tabindex="2"/>
+            </div>
+            <div class="form-input-container">
+              <label for="phone-number">Phone Number</label>
+              <input type="number" id="phone-number" tabindex="4"/>
+            </div>
+
+            <div class="form-input-container">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" tabindex="6"/>
+            </div>
+          </div>
         </form>
       </div>
-      <div class="footer-container">Already have an account? <a href="index.html">Log in</a></div>
+      <div class="footer-container">
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="index.html">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
