@@ -43,6 +43,7 @@ label, p{
 
 body{
     display: flex;
+    background-color: var(--shattered-plains);
 }
 
 .left-column{
@@ -53,6 +54,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-color: var(--shattered-plains);
+    margin: 25px 0px 25px 25px;
 }
 
 .right-column{
@@ -116,11 +118,11 @@ button{
     border-radius: 4px;
     border: none;
     color: white;
-    transition: border 1s linear, background 1s linear, color .1s linear;
+    transition: border 1s linear, background 1s linear, color .3s linear;
 }
 
 button:hover{
-    transition: border 1s linear, background 1s linear, color .1s linear;
+    transition: border 1s linear, background 1s linear, color .3s linear;
     color: var(--odium-grey);
     background-color: var(--radiant-gold);
 }
