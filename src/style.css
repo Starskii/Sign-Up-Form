@@ -91,18 +91,24 @@ a{
     gap: 10px;
 }
 
-.card-container h2{
-
-}
-
 .card-image{
     background-image: url('../Assets/BridgeFour.png');
-    height: 6rem;
-    width: 6rem;
+    height: 150px;
+    width: 150px;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-right: .5rem;
+}
+
+.photo-credit{
+    position: absolute;
+    width: 100%;
+    opacity: .75;
+    color: white;
+    bottom: 0%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'medieval-title';
 }
 
 .right-column{
@@ -115,12 +121,12 @@ a{
 }
 
 .top-hero{
-    padding-left: 30px;
+    padding-left: 90px;
     margin-right: 30%;
 }
 
 .sign-up-title{
-    padding-left: 30px;
+    padding-left: 90px;
     font-size: 1.8rem;
 }
 
@@ -132,7 +138,7 @@ a{
 .signup-card-container form{
     display: flex;
     height: 300px;
-    padding-left: 30px;
+    padding-left: 90px;
     padding-bottom: 50px;
 }
 
@@ -157,7 +163,7 @@ a{
 }
 
 .footer-container{
-    padding-left: 30px;
+    padding-left: 90px;
 }
 
 button{
