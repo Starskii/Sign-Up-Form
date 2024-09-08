@@ -10,8 +10,8 @@
 @font-face {
     font-family: "medieval-title";
     src:
-      url("../Assets/fonts/ringm___-webfont.woff2") format("woff2"),
-      url("../Assets/fonts/ringm___-webfont.woff") format("woff");
+      url("./Assets/fonts/ringm___-webfont.woff2") format("woff2"),
+      url("./Assets/fonts/ringm___-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
     font-family: "medieval-text";
     src:
-      url("../Assets/fonts/junicode-webfont.woff2") format("woff2"),
-      url("../Assets/fonts/junicode-webfont.woff") format("woff");
+      url("./Assets/fonts/junicode-webfont.woff2") format("woff2"),
+      url("./Assets/fonts/junicode-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -66,7 +66,7 @@ a{
 .left-column{
     flex-shrink: 1;
     width: 40%;
-    background-image: url(../Assets/WarriorImage.jpg);
+    background-image: url('./Assets/WarriorImage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -92,7 +92,7 @@ a{
 }
 
 .card-image{
-    background-image: url('../Assets/BridgeFour.png');
+    background-image: url('./Assets/BridgeFour.png');
     height: 150px;
     width: 150px;
     background-size:contain;
