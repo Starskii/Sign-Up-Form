@@ -27,7 +27,7 @@
 
 :root{
     --radiant-gold: #fcd400;
-    --odium-grey: #232634;
+    --odium-grey: #010c13cb;
     --shattered-plains: #964600;
     --kholin-blue:#4f516f;
     --cultivation-green:#001120;
@@ -167,10 +167,10 @@ a{
 }
 
 button{
-    background-color: var(--odium-grey);
+    background-color: var(--cultivation-green);
     padding: 10px;
     font-size: 1.5rem;
-    font-family: 'medieval-text';
+    font-family: 'medieval-title';
     border-radius: 4px;
     border: none;
     color: white;
