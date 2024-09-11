@@ -103,16 +103,15 @@ a{
 .photo-credit{
     position: absolute;
     width: 100%;
-    opacity: .75;
     color: white;
     bottom: 7.5%;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'medieval-title';
-    text-shadow: -1px 1px 0 #000,
-                         1px 1px 0 #000,
-                         1px -1px 0 #000,
-                         -1px -1px 0 #000;
+    text-shadow: -2px 2px 0 #000,
+                         2px 2px 0 #000,
+                         2px -2px 0 #000,
+                         -2px -2px 0 #000;
 }
 
 .right-column{
